@@ -632,3 +632,104 @@ x==========x]
 [2024-11-03 05:00:58,945: WARNING: polymorphic_function: 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000002D970E274C0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
 [2024-11-03 05:00:58,953: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 05:00:58] "POST /predict HTTP/1.1" 200 -]
 [2024-11-03 05:01:10,456: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 05:01:10] "POST /predict HTTP/1.1" 200 -]
+[2024-11-03 06:46:54,579: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:46:54] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:47:34,688: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:47:34] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:47:37,084: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:47:37] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:50:49,855: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:50:49] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:50:50,221: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:50:50] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:50:50,361: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:50:50] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:50:50,533: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:50:50] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:50:50,678: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:50:50] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:50:50,956: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:50:50] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:50:51,111: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:50:51] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:50:51,415: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:50:51] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:50:51,636: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:50:51] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:52:14,432: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:52:14] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:52:27,070: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:52:27] "POST /predict HTTP/1.1" 200 -]
+[2024-11-03 06:56:16,508: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:56:16] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:56:17,824: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:56:17] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:56:18,419: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:56:18] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:56:18,747: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:56:18] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:56:18,846: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:56:18] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:56:19,005: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:56:19] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:56:19,175: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:56:19] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:56:19,432: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:56:19] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:56:19,571: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:56:19] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:56:19,878: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:56:19] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:57:15,349: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:57:15] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:57:16,250: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:57:16] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:57:16,928: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:57:16] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:57:17,066: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:57:17] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:57:17,255: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:57:17] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:57:17,533: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:57:17] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:57:20,802: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:57:20] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:57:21,130: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:57:21] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:57:21,218: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:57:21] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:57:21,393: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:57:21] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:57:21,541: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:57:21] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:57:21,817: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:57:21] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:57:21,934: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:57:21] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:57:22,220: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:57:22] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:57:22,378: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:57:22] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:57:31,459: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:57:31] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:03,436: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:03] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:04,240: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:04] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:04,402: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:04] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:04,557: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:04] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:04,859: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:04] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:05,016: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:05] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:05,295: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:05] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:13,589: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:13] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:15,030: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:15] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:24,215: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:24] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:24,982: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:24] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:25,131: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:25] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:25,303: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:25] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:25,444: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:25] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:25,747: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:25] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:34,376: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:34] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:34,962: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:34] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:35,097: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:35] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:35,313: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:35] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:58:43,331: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:58:43] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:59:01,741: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:59:01] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:59:02,417: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:59:02] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:59:02,581: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:59:02] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:59:02,749: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:59:02] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:59:03,033: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:59:03] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:59:03,218: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:59:03] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:59:12,578: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:59:12] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:59:13,287: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:59:13] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:59:13,446: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:59:13] "GET / HTTP/1.1" 200 -]
+[2024-11-03 06:59:13,661: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 06:59:13] "GET / HTTP/1.1" 200 -]
+[2024-11-03 07:00:04,003: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 07:00:04] "POST /predict HTTP/1.1" 200 -]
+[2024-11-03 07:00:23,443: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 07:00:23] "POST /predict HTTP/1.1" 200 -]
+[2024-11-03 07:01:20,556: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 07:01:20] "GET / HTTP/1.1" 200 -]
+[2024-11-03 07:01:21,958: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 07:01:21] "GET / HTTP/1.1" 200 -]
+[2024-11-03 07:01:22,911: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 07:01:22] "GET / HTTP/1.1" 200 -]
+[2024-11-03 07:01:26,075: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Public\miniconda3\envs\cancer\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Public\miniconda3\envs\cancer\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Public\miniconda3\envs\cancer\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Public\miniconda3\envs\cancer\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Public\miniconda3\envs\cancer\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Public\miniconda3\envs\cancer\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 46, in predictRoute
+    result = clApp.classifier.predict()
+  File "e:\e2e-dl-pipeline\src\cnnClassifier\pipeline\prediction.py", line 21, in predict
+    test_image = image.load_img(imagename, target_size = (224,224))
+  File "C:\Users\Public\miniconda3\envs\cancer\lib\site-packages\keras\utils\image_utils.py", line 423, in load_img
+    img = pil_image.open(io.BytesIO(f.read()))
+  File "C:\Users\Public\miniconda3\envs\cancer\lib\site-packages\PIL\Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000002D97121AF90>
+[2024-11-03 07:01:26,120: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 07:01:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-11-03 07:01:33,124: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 07:01:33] "GET / HTTP/1.1" 200 -]
+[2024-11-03 07:01:39,745: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 07:01:39] "POST /predict HTTP/1.1" 200 -]
