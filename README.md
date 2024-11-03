@@ -2,7 +2,7 @@
 
 This repository showcases an **end-to-end deep learning project** implementation focused on **chest cancer classification** using CT scan images. We leverage **MLOps tools** like **MLflow** and **DVC (Data Version Control)** for robust experiment tracking, data versioning, and model management, alongside **CI/CD** pipelines for seamless deployment to **AWS**. The pipeline spans from **data ingestion** to **production deployment**, covering all critical stages of the machine learning lifecycle, including model evaluation and deployment.
 
-![Deployed Application](#)
+![image](https://github.com/user-attachments/assets/9f39fecb-9d0e-4f12-b34f-8c926fac48a8)
 
 ## 🌟 Key Features
 
@@ -25,6 +25,8 @@ This repository showcases an **end-to-end deep learning project** implementation
    - Integrated with **MLflow** for tracking model parameters, metrics, and artifacts.
    - **DagsHub** as a collaborative platform for visualizing experiments and sharing results with the team.
    - Comparison of multiple experiment runs to select the best-performing model.
+     ![image](https://github.com/user-attachments/assets/3d83e025-2080-4bdf-819f-0eac46a63940)
+
 
 ### 5. **Pipeline Tracking with DVC**
    - Complete versioning of datasets, model checkpoints, and pipelines using **DVC**.
