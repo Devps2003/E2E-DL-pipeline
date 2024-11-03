@@ -202,6 +202,3 @@ Simply update the configuration files, model architecture, and data processing s
 
 This project serves as a template for production-grade deep learning pipelines with **MLOps tools** like MLflow, DVC, and AWS. With slight modifications to the configuration and components, you can use this structure for any advanced deep learning use case. Happy coding!
 
----
-
-Let me know if you want further modifications or details!
